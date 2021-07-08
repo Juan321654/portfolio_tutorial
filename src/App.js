@@ -1,5 +1,4 @@
 import './App.css';
-// import Particles from "react-tsparticles";
 import ParticleAnimation from 'react-particle-animation'
 import NavigationBar from './components/NavigationBar';
 import Header from './components/Header'
