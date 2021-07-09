@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav'
 
 function NavigationBar() {
   return (
-      <Navbar style={{zIndex: '2'}} collapseOnSelect bg="dark" variant="dark" expand="md">
+      <Navbar className="navigation__container" style={{zIndex: '2'}} collapseOnSelect  expand="md">
         <Navbar.Brand style={{marginLeft: '1rem'}} href="#home">Juan Camacho</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse style={{justifyContent: 'flex-end', marginRight: '1rem', borderColor: 'none'}}>
