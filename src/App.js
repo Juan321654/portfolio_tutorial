@@ -3,6 +3,7 @@ import ParticleAnimation from 'react-particle-animation'
 import NavigationBar from './components/NavigationBar';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
+import Technologies from './components/Technologies';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       particleRadius={2}
       />
       <AboutMe />
+      <Technologies />
     </div>
   );
 }
