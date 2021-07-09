@@ -1,7 +1,8 @@
 import './App.css';
 import ParticleAnimation from 'react-particle-animation'
 import NavigationBar from './components/NavigationBar';
-import Header from './components/Header'
+import Header from './components/Header';
+import AboutMe from './components/AboutMe';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       particleSpeed={0.1}
       particleRadius={2}
       />
+      <AboutMe />
     </div>
   );
 }
