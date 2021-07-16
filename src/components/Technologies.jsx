@@ -13,7 +13,7 @@ function Technologies() {
         return (
           <div className="tech__card">
             <DevIcon className="icon tech__icons" icon={e.iconName}/>
-            <span style={{margin: '5px'}}>{e.name}</span>
+            <span style={{margin: '5px', fontSize: '1.5rem'}}>{e.name}</span>
           </div>
         )
       })}

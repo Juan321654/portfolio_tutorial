@@ -4,9 +4,10 @@
 }
 
 :root {
-  --nav-color: #212529;
-  --light-color: #d6ebff;
-  --font-color: white;
+  --nav-color: hsl(210, 11%, 15%);
+  --light-color: hsl(209, 100%, 92%);
+  --font-color: hsl(0, 0%, 100%);
+  --font-color-hover: hsl(0, 0%, 90%) 
 }
 
 .main-info {
@@ -99,8 +100,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 3px;
   border-bottom: 5px solid var(--nav-color);
+}
+
+.tech__card:hover {
+  background-color: var(--font-color-hover);
 }
 
 /* -----------MEDIA QUERIES--------------- */
