@@ -1,9 +1,9 @@
 import './App.css';
 import ParticleAnimation from 'react-particle-animation'
-import NavigationBar from './components/NavigationBar';
-import Header from './components/Header';
-import AboutMe from './components/AboutMe';
-import Technologies from './components/Technologies';
+import NavigationBar from './screens/navigation/NavigationBar';
+import Header from './screens/header/Header';
+import AboutMe from './screens/aboutMe/AboutMe';
+import Technologies from './screens/technologies/Technologies';
 
 function App() {
   return (
