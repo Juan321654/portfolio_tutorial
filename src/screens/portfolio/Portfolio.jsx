@@ -15,24 +15,24 @@ function Portfolio() {
   const mapped = portfolioData.map((e, idx, arr) => {
     return (
       <Card style={{ width: '50%'}} fluid="sm">
-        <Image src={e.image}/>
+        <Image className="portfolio__image" onClick={() => setModalShow(true)} src={e.image}/>
       </Card>
     )
   })
 
   return (
-    <Container fluid="lg">
+    <Container fluid="lg" style={{padding: '2rem 0'}}>
       <Row>
         {mapped}
       </Row>
       {/* <Button variant="primary" onClick={() => setModalShow(true)}>
         Launch vertically centered modal
-      </Button>
+      </Button> */}
 
       <PopupModal
         show={modalShow}
         onHide={() => setModalShow(false)}
-      /> */}
+      />
     </Container>
   );
 }

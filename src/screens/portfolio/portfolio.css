@@ -2,8 +2,7 @@
   background-color: aqua;
 }
 
-.portfolio__image {
-  width: 300px;
-  height: 250px;
-  object-fit: scale-down;
+.portfolio__image:hover {
+  cursor: pointer;
+  filter: opacity(80%);
 }
