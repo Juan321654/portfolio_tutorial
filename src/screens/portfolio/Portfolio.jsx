@@ -12,7 +12,6 @@ function Portfolio() {
   const [modalShow, setModalShow] = useState(false);
   const [tempData, setTempData] = useState({})
 
-
   function createModal(data) {
     return (
       <Modal
@@ -28,11 +27,12 @@ function Portfolio() {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <p>
-            {data.summary}
-          </p>
+          <p>{data.summary}</p>
+          <Image src={data.image} style={{ width: '200px' }} />
         </Modal.Body>
         <Modal.Footer>
+          <div>Technologies used: </div>
+          <p style={{ fontSize: '0.7rem', marginRight: 'auto' }}>{data.tech}</p>
           <Button onClick={() => setModalShow(false)}>Close</Button>
         </Modal.Footer>
       </Modal>
