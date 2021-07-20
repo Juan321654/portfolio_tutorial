@@ -18,3 +18,9 @@
 .contactMe__data_links a:hover {
   color: var(--light-color);
 }
+
+@media only screen and (max-width: 600px){
+  .contactMe__data_links {
+    flex-direction: column;
+  }
+}
