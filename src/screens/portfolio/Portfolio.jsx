@@ -60,7 +60,7 @@ function Portfolio() {
   })
 
   return (
-    <div className="portfolio__main__container">
+    <div className="portfolio__main__container" id="portfolio">
       <h1>PORTFOLIO</h1>
       <p>
         This is my Github page

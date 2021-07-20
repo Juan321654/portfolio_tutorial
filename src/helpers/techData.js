@@ -31,4 +31,8 @@ export const techs = [
     name: 'SQL lite',
     iconName: 'sqllite'
   },
+  {
+    name: 'Github',
+    iconName: 'github'
+  },
 ]

@@ -1,0 +1,20 @@
+.contactMe__container {
+  background-color: var(--nav-color);
+  color: aliceblue;
+  padding: 1rem;
+}
+
+.contactMe__data_links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contactMe__data_links a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.contactMe__data_links a:hover {
+  color: var(--light-color);
+}

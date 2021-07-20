@@ -5,7 +5,7 @@ import {techs} from '../../helpers/techData'
 
 function Technologies() {
   return (
-    <div className="technologies__container">
+    <div className="technologies__container" id="technologies">
       <div>
         <h1 style={{textAlign: 'center'}}>SOME OF THE TECHNOLOGIES I USE</h1>
       </div>

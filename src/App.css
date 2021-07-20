@@ -9,5 +9,9 @@
   --nav-border-color: hsl(210, 11%, 45%);
   --light-color: hsl(209, 100%, 92%);
   --font-color: hsl(0, 0%, 100%);
-  --font-color-hover: hsl(0, 0%, 90%) 
+  --font-color-hover: hsl(0, 0%, 90%);
+}
+
+html {
+  scroll-padding-top: 200px; /* height of sticky header */
 }
