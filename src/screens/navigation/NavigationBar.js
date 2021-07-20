@@ -12,7 +12,12 @@ function createLinks() {
 
 function NavigationBar() {
   return (
-    <Navbar id="home" className="navigation__container" style={{ zIndex: '2' }} collapseOnSelect expand="md">
+    <div id="home">
+    <Navbar className="navigation__container" style={{
+      zIndex: '2', position: 'fixed',
+      top: '0',
+      width: '100%'
+    }} collapseOnSelect expand="md">
       <Navbar.Brand style={{ marginLeft: '1rem' }} href="#home">Juan Camacho</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse style={{ justifyContent: 'flex-end', marginRight: '1rem', borderColor: 'none' }}>
@@ -21,6 +26,7 @@ function NavigationBar() {
         </Nav>
       </Navbar.Collapse>
     </Navbar>
+    </div>
   )
 }
 
