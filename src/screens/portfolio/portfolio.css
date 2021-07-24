@@ -36,6 +36,14 @@
   opacity: .1 !important;
 }
 
+#portfolio__modal__link {
+  padding: 0 0 1rem 1rem
+}
+
+#portfolio__modal__link:link {
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 600px){
 	#portfolio__card__container {
     width: 100%;
