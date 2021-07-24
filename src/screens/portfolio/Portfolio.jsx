@@ -30,7 +30,8 @@ function Portfolio() {
           <p>{data.summary}</p>
           <Image src={data.image} style={{ width: '200px' }} />
         </Modal.Body>
-          <a id="portfolio__modal__link" href={data.link} target="_blank">Go to site</a>
+         {/* make sure to add rel="noreferrer" for netlify upload */}
+          <a id="portfolio__modal__link" href={data.link} target="_blank" rel="noreferrer">Go to site</a>
         <Modal.Footer>
           <div>Technologies used: </div>
           <p style={{ fontSize: '0.7rem', marginRight: 'auto' }}>{data.tech}</p>
